@@ -6,6 +6,16 @@ All dummy text is created by Claude AI to get a sense for what it looks like wit
 
 To see it in action, I use it for my own website at [www.timeaton.dev](https://www.timeaton.dev). Feel free to use and modify for your needs!
 
+## Deploy
+
+One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and serves `dist/` automatically).
+
+[![Deploy to Tencent EdgeOne Pages](https://img.shields.io/badge/Deploy-Tencent%20EdgeOne%20Pages-006EFF?style=for-the-badge&logo=tencentqq&logoColor=white)](https://edgeone.ai/pages/new?template=https%3A%2F%2Fgithub.com%2Fnuonuo-888%2Fglyptodon&output-directory=dist&build-command=npm+run+build&install-command=npm+install&origin_from=childtom)
+
+## Preview
+
+[![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://glyptodon.edgeone.app/)
+
 ## Screenshots
 
 ## ![glyptodon-dark min](https://github.com/user-attachments/assets/49a9f63a-8002-4493-bf91-a54552c94998)
