@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import globals from 'globals';
 
 export default [
   js.configs.recommended,
@@ -18,9 +19,7 @@ export default [
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-    },
-    env: {
-      serviceworker: true,
+      globals: globals.serviceworker,
     },
     rules: {
       'no-unused-vars': 'warn',
@@ -32,18 +31,16 @@ export default [
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-    },
-    env: {
-      node: true,
-      browser: true,
-    },
-    globals: {
-      describe: 'readonly',
-      it: 'readonly',
-      expect: 'readonly',
-      beforeEach: 'readonly',
-      vi: 'readonly',
-      global: 'readonly',
+      globals: {
+        ...globals.node,
+        ...globals.browser,
+        describe: 'readonly',
+        it: 'readonly',
+        expect: 'readonly',
+        beforeEach: 'readonly',
+        vi: 'readonly',
+        global: 'readonly',
+      },
     },
     rules: {
       'no-unused-vars': 'warn',

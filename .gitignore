@@ -1,1 +1,4 @@
 node_modules
+.edgeone
+.vscode
+package-lock.json

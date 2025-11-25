@@ -3,12 +3,14 @@ import { CONFIG } from "./src/config";
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
+import edgeoneAdapter from "@edgeone/astro";
 
 import playformCompress from "@playform/compress";
 
 export default defineConfig({
   base: "/",
   site: CONFIG.site_url,
+  adapter: edgeoneAdapter(),
   integrations: [
     sitemap(), 
     mdx(), 
