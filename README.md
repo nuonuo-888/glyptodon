@@ -4,8 +4,6 @@ A clean and modern, eco-friendly personal website theme built with [Astro](https
 
 All dummy text is created by Claude AI to get a sense for what it looks like with content.
 
-To see it in action, I use it for my own website at [www.timeaton.dev](https://www.timeaton.dev). Feel free to use and modify for your needs!
-
 ## Deploy
 
 One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and serves `dist/` automatically).
