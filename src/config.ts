@@ -9,7 +9,7 @@ export const PATHS = {
 
 export const CONFIG = {
   site_title: "Jane Doe | Graphic Designer",
-  site_url: "https://www.yoursite.dev",
+  site_url: "https://glyptodon.edgeone.app/",
   author: "Jane Doe",
   email: "your@email.com",
   description: "Welcome to my blog!",
